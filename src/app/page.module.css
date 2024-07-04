@@ -1,0 +1,151 @@
+.main{
+    width: 100vw;
+    height: 100%;
+
+    background-color:  #f9db79;
+  
+    
+}
+
+.container_banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../public/banner-home.png");
+}
+
+.container_banner h1{
+    color: #fff;
+    text-shadow:3px 5px 2px #474747;
+    font-size: 80px;
+}
+
+.container_info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.imagem_um,.imagem_dois, .imagem_tres,.card_info{
+    width: 50%;
+    height: 400px;
+   
+}
+
+.imagem_um{
+    background-image: url('../../public/banner-sabores.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.imagem_dois{
+    background-image: url('../../public/eventos-image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.imagem_tres{
+    background-image: url('../../public/sobre-image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.subtitulo, .subtitulo_dois{
+    text-align: center;
+}
+
+.subtitulo_dois{
+    font-style: italic;
+}
+
+
+
+.card_info{
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+   
+}
+
+@media screen and (max-width:375px){
+
+  .container_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imagem_um,.imagem_dois, .imagem_tres,.card_info{
+    width: 100%;
+    height: 400px;
+   
+}
+
+.container_banner{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../public/banner-home.png");
+}
+
+.container_banner h1{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 35px;
+}
+  
+    
+}
+
+@media screen and (min-width:376px) and (max-width:768px){
+
+    .container_info{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .imagem_um,.imagem_dois, .imagem_tres,.card_info{
+      width: 100%;
+      height: 400px;
+     
+  }
+  
+  .container_banner{
+      width: 100%;
+      height: 120vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("../../public/banner-home.png");
+  }
+  
+  .container_banner h1{
+      margin-top: 130px;
+      text-align: center;
+      font-size: 35px;
+  }
+    
+      
+  }

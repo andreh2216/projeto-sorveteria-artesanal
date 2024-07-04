@@ -1,0 +1,107 @@
+.main{
+     width: 100%;
+    height: 100%;
+    
+
+}
+
+.container_banner{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-size: 400px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-image: url("../../../public/banner-sabores.jpg");
+     background-size: cover;
+}
+
+.container_banner h1{
+    color: #fff;
+    text-shadow:3px 5px 2px #474747;
+    font-size: 80px;
+    
+}
+
+.secao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+ 
+    
+}
+
+.container_card{
+    width:100%;
+    height: 80%;
+    max-width:1024px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sorvete{
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    box-shadow: 2px 2px 15px 2px #d9dde1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 300px;
+    height: 320px;
+}
+
+.card h2{
+    font-size: 18px;
+}
+.card p{
+    font-size: 16px;
+}
+
+@media screen and (max-width:375px){
+
+    .container_banner h1{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+}
+
+
+@media screen and (min-width:375px) and (max-width:768px){
+
+    .container_banner h1{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .container_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 95%;
+    }
+
+    .sorvete{
+        width: 230px;
+        height: 230px;
+    }
+
+}
